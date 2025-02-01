@@ -16,7 +16,7 @@
             color: #333;
             text-align: center;
         }
-        
+
         /* --- ENCABEZADO --- */
         header {
             background-color: #0077b6;
@@ -54,7 +54,10 @@
         }
 
         li {
-            margin: 10px 0;
+            margin: 20px 0;
+            padding: 15px;
+            background: #e3f2fd;
+            border-radius: 8px;
         }
 
         /* --- BOTONES/LINKS --- */
@@ -71,6 +74,13 @@
 
         a:hover {
             background-color: #023e8a;
+        }
+
+        /* --- DESCRIPCIONES --- */
+        .descripcion {
+            font-size: 0.9rem;
+            color: #555;
+            margin-top: 8px;
         }
 
         /* --- RESPONSIVE (MÓVILES) --- */
@@ -101,25 +111,44 @@
         <section>
             <h1>Cursos de Lógica Computacional</h1>
             <ul>
-                <li><a href="https://aprendergratis.es/cursos-online/curso-gratuitos-sobre-programacion/curso-de-introduccion-a-la-programacion-logic/?utm_source=chatgpt.com" target="_blank">Introducción a la Lógica - Stanford</a></li>
-                <li><a href="https://edutin.com/curso-de-pensamiento-computacional?utm_source=chatgpt.com" target="_blank">Curso de Pensamiento Computacional - Edutin Academy</a></li>
-                <li><a href="https://mundi.ifsul.edu.br/portal/introducao-a-logica-de-programacao.php?utm_source=chatgpt.com" target="_blank">Introducción a la Lógica de Programación - IFSul</a></li>
-                <li><a href="https://cursa.app/es/libro-electronico-gratis/curso-completo-de-programacion-logica-para-principiantes?utm_source=chatgpt.com" target="_blank">Curso Completo de Programación Lógica - Cursa</a></li>
-                <li><a href="https://capacitateparaelempleo.org" target="_blank">Curso de Lógica de Programación - Capacítate para el Empleo</a></li>
+                <li>
+                    <a href="https://aprendergratis.es/cursos-online/curso-gratuitos-sobre-programacion/curso-de-introduccion-a-la-programacion-logic/?utm_source=chatgpt.com" target="_blank">Introducción a la Lógica - Stanford</a>
+                    <p class="descripcion">Aprende los fundamentos de la lógica matemática aplicada a la computación con este curso de Stanford.</p>
+                </li>
+                <li>
+                    <a href="https://edutin.com/curso-de-pensamiento-computacional?utm_source=chatgpt.com" target="_blank">Curso de Pensamiento Computacional - Edutin Academy</a>
+                    <p class="descripcion">Desarrolla habilidades de resolución de problemas y pensamiento lógico esenciales en programación.</p>
+                </li>
+                <li>
+                    <a href="https://mundi.ifsul.edu.br/portal/introducao-a-logica-de-programacao.php?utm_source=chatgpt.com" target="_blank">Introducción a la Lógica de Programación - IFSul</a>
+                    <p class="descripcion">Curso básico para entender la estructura y el razonamiento detrás de la programación.</p>
+                </li>
             </ul>
         </section>
 
         <section>
             <h1>Cursos de Python Desde Cero</h1>
             <ul>
-                <li><a href="https://www.freecodecamp.org/espanol/news/aprende-a-programar-en-python-desde-cero-curso-completo-gratis/?utm_source=chatgpt.com" target="_blank">Aprende a Programar en Python Desde Cero - freeCodeCamp</a></li>
-                <li><a href="https://cursosgratisunam.com/programacion/python/?utm_source=chatgpt.com" target="_blank">Curso de Python Gratis con Certificado - UNAM</a></li>
-                <li><a href="https://edutin.com/curso-de-python?utm_source=chatgpt.com" target="_blank">Curso de Python [Gratis y Certificado] - Edutin Academy</a></li>
-                <li><a href="https://www.cursopython.dev/?utm_source=chatgpt.com" target="_blank">Curso Gratuito de Python - midudev</a></li>
-                <li><a href="https://cursa.app/es/curso-gratis/programacion-python-desde-cero-bebh?utm_source=chatgpt.com" target="_blank">Programación Python desde cero - Cursa</a></li>
+                <li>
+                    <a href="https://www.freecodecamp.org/espanol/news/aprende-a-programar-en-python-desde-cero-curso-completo-gratis/?utm_source=chatgpt.com" target="_blank">Aprende a Programar en Python Desde Cero - freeCodeCamp</a>
+                    <p class="descripcion">Curso completo para principiantes con ejercicios prácticos y explicaciones detalladas.</p>
+                </li>
+                <li>
+                    <a href="https://cursosgratisunam.com/programacion/python/?utm_source=chatgpt.com" target="_blank">Curso de Python Gratis con Certificado - UNAM</a>
+                    <p class="descripcion">Curso gratuito con certificado oficial de la UNAM, ideal para aprender desde lo básico.</p>
+                </li>
+                <li>
+                    <a href="https://edutin.com/curso-de-python?utm_source=chatgpt.com" target="_blank">Curso de Python [Gratis y Certificado] - Edutin Academy</a>
+                    <p class="descripcion">Curso interactivo con certificación que cubre desde variables hasta estructuras de datos avanzadas.</p>
+                </li>
+                <li>
+                    <a href="https://www.cursopython.dev/?utm_source=chatgpt.com" target="_blank">Curso Gratuito de Python - midudev</a>
+                    <p class="descripcion">Curso actualizado de Python con enfoque práctico, ideal para nuevos programadores.</p>
+                </li>
             </ul>
         </section>
     </main>
 
 </body>
 </html>
+
